@@ -69,7 +69,6 @@
 
 **Резервное копирование базы данных:**
 
-```bash
 pg_dump my_database > backup.sql
 Восстановление базы данных:
 
@@ -106,6 +105,5 @@ psql my_database < backup.sql
 
 Пример создания полной резервной копии:
 
-```bash
 mysqldump my_database > full_backup.sql
 
